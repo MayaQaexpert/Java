@@ -14,7 +14,7 @@ public class APITest {
         System.out.println("Time: "+ response.getTime());
         System.out.println("Header "+ response.getHeader("content-type"));
         int Statuscode= response.getStatusCode();
-        Assert.assertEquals(Statuscode,201);
+        Assert.assertEquals(Statuscode,200);
     }
     @Test
     void test()
